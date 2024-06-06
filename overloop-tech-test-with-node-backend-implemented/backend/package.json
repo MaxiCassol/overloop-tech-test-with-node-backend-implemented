@@ -1,0 +1,29 @@
+{
+    "name": "tech-test-backend",
+    "version": "1.0.0",
+    "private": true,
+    "engines": {
+        "node": "^12.8.3"
+    },
+    "scripts": {
+        "start": "nodemon --exec babel-node src/server.js",
+        "seed": "babel-node scripts/seed.js"
+    },
+    "dependencies": {
+        "cors": "^2.8.5",
+        "express": "^4.17.1",
+        "sequelize": "^6.5.0",
+        "sqlite3": "^5.0.2",
+        "yarn": "^1.22.22"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.13.8",
+        "@babel/node": "^7.13.0",
+        "@babel/plugin-proposal-export-default-from": "^7.12.13",
+        "@babel/plugin-proposal-nullish-coalescing-operator": "^7.13.8",
+        "@babel/plugin-proposal-object-rest-spread": "^7.13.8",
+        "@babel/plugin-proposal-optional-chaining": "^7.13.8",
+        "@babel/preset-env": "^7.13.9",
+        "nodemon": "^2.0.7"
+    }
+}
